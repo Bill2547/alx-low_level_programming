@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - prints the size of the various types in the computer,
+ * Main- prints the size of the various types in the computer,
  * it is compiled on
- * Return : 0 if the program ends successfully
+ * Return: 0 if the program ends successfully
  */
 int main(void)
 {
