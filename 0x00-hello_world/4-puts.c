@@ -1,4 +1,4 @@
-include<stdio.h>
+include <stdio.h>
 
 /**
  *  this prints the words in the string
