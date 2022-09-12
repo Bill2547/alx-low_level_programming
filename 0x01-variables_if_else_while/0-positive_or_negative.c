@@ -1,13 +1,17 @@
-#include <stdio.h> 
+#include <stdio.h>
+#include <time.h>
 /** 
- * main- assign a number to the variable n each time it is executed print whether the number stored is positve or negative 
+ * main- assign a number to the variable n each time it is executed print
+ * whether the number stored is positve or negative 
  * return: 0 if program executed successfully 
  */
 
  int main(void) 
  { 
 		int n;
-		 
+
+		srand(time(0));
+		n = rand() - RAND_MAX / 2;
 		if (n > 0)
 			printf("%d is positive\n",n);
 		else if (n == 0)
