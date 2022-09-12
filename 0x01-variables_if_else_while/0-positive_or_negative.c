@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /** 
- * main- assign a number to the variable n each time it is executed print
+ * main - assign a number to the variable n each time it is executed print
  * whether the number stored is positve or negative 
  * return: 0 if program executed successfully 
  */
