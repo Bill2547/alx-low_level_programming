@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
- * main - assign a number to the variable n each time it is executed print
- * whether the number stored is positve or negative 
- * return: 0 if program executed successfully 
+/**
+ * main - assign a number to the variable int n each time it is executed print
+ * whether the number stored is positve or negative
+ * return: 0 if program executed successfully
  */
 
- int main(void) 
- { 
+int main(void)
+{ 
 	int n;
 
 	srand(time(0));
@@ -21,4 +21,4 @@
 	else if (n < 0)
 		printf("%d is negative\n", n);
 	return (0);
- } 
+} 
