@@ -5,8 +5,8 @@
  * Return: 0 if run successfully 
  */
 
-int_putchar (int)
+int_putchar (char c)
 {
-	write ("_putchar\n");
-	return (0);
+	return (write (1, &c, 1));
+
 }
