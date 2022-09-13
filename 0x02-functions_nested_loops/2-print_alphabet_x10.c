@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-print_alphabet_x10 - prints the alphabet ten times in a row
+*print_alphabet_x10 - prints the alphabet ten times in a row
 */
 
 void print_alphabet_x10(void)
@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
 	char ch;
 	int n;
 
-	n = 1;
+	n = 0;
 
 	while (n < 10)
 	{
