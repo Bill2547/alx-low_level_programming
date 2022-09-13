@@ -1,12 +1,22 @@
-#include <unistd.h>
+#include <main.h>
 
 /**
  * main - prints _putchar followed by a new line 
  * Return: 0 if run successfully 
  */
 
-int_putchar (char c)
+int main(void)
 {
-	return (write (1, &c, 1));
+	putchar('_')
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+
+	return (0);
 
 }
