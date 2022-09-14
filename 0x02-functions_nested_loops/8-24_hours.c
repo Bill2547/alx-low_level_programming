@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Jack_bauer - prints evert minute of the day of jack starting from
+ * jack_bauer - prints evert minute of the day of jack starting from
  * 00.00 to 23.59
  */
 
@@ -9,9 +9,9 @@ void jack_bauer(void)
 {
 	int i, j;
 
-	i=0;
+	i = 0;
 
-	while(i < 24)
+	while (i < 24)
 	{
 		j = 0;
 		while (j < 60)
