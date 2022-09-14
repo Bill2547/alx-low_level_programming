@@ -18,9 +18,9 @@ void print_to_98(int n)
 			if ( i != 98)
 				printf("%d\n", i);
 			else if (i == 98)
-				printf("%d\n", i)
+				printf("%d\n", i);
 		}
-		i++
+		i++;
 		return (0);
 	}
 }
