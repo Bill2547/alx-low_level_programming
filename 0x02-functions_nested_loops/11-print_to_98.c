@@ -9,7 +9,7 @@
 
 void print_to_98(int n)
 {
-	int i, j;
+	int i;
 
 	if (n <=98)
 	{
@@ -21,7 +21,7 @@ void print_to_98(int n)
 				printf("%d\n", i);
 		}
 		i++;
-		return (0);
+		return(0);
 	}
 }
 
