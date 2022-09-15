@@ -3,7 +3,6 @@
 /**
  * more_numbers- prints numbers from 0 to 14 ten timesfollowed
  * by a new line
- * Return: 0 is run successfully
  */
 
 void more_numbers(void)
