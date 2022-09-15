@@ -5,7 +5,7 @@
  * Return: 1if Cis uppercase and 0 otherwise
  */
 
-vouid print_numbers(void)
+void print_numbers(void)
 {
 	int i;
 
