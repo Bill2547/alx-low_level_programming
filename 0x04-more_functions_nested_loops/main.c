@@ -9,7 +9,7 @@
 
 int main(void)
 {
-       void print_line(int n);
+	void more_numbers(void);
 
 	return (0);
 }
