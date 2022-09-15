@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int _isupper();
+       void more_numbers(void);
 
 	return (0);
 }
