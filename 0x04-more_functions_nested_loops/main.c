@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	_isupper();
+	int _isupper();
 
 	return (0);
 }
