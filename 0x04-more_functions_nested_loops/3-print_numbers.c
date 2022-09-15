@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Print_numbers - prints numbers from 0 to 9
+ * print_numbers - prints numbers from 0 to 9
  * Return: 1if Cis uppercase and 0 otherwise
  */
 
