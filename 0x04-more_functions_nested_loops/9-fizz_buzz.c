@@ -12,13 +12,13 @@ int main(void)
 {
 	int i;
 
-	for (i = 1 ; i <= 100; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
 		{
 			printf("Fizz");
 		}
-		else if (i != 3 && i % 5 == 0)
+		else if (i % 3 != 0 && i % 5 == 0)
 		{
 			printf("Buzz");
 		}
@@ -26,7 +26,7 @@ int main(void)
 		{
 			printf("FizzBuzz");
 		}
-		else if  (i == 1)
+		else if (i == 1)
 		{
 			printf("%d", i);
 		}
