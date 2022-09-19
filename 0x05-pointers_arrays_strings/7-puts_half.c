@@ -2,7 +2,7 @@
 
 /**
  * puts_half - printshalf of a string
- * @str: the string to be printed 
+ * @str: the string to be printed
  */
 
 void puts_half(char *str)
@@ -10,7 +10,7 @@ void puts_half(char *str)
 	int i, j, k;
 
 	i = 0;
-	while (str[i] !='\0')
+	while (str[i] != '\0')
 	{
 		i++;
 	}
@@ -23,9 +23,9 @@ void puts_half(char *str)
 	}
 	else if (i % 2)
 	{
-		for (j = (i -1) / 2; j < i - 1; j++)
+		for (j = (i - 1) / 2; j < i - 1; j++)
 		{
-			_putchar(str[j +1]);
+			_putchar(str[j + 1]);
 		}
 	}
 	_putchar('\n');
