@@ -7,7 +7,7 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void print_rev(char *s);
 void rev_strings(char *s);
-void int(constant char *);
+void int(constant *);
 void puts_half(char *str);
 void print_arrays(int *a, int n);
 char *_strcpy(char *dest, char *src);
