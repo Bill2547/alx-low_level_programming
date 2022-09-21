@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * string_toupper - changes all llowercase letters of a string to
