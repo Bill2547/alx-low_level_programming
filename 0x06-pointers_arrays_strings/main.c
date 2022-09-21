@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	 string_toupper(char *s);
+	char * _strncat(char *dest, char *src, int n);
 
 	return (0);
 }
