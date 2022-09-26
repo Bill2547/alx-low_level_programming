@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strpbrk - finds the first occurance of the substring needle in the string
+ * _strstr - finds the first occurance of the substring needle in the string
  * haystack
  * @needle: substring to find
  * @haystack: string to search within
@@ -9,7 +9,7 @@
  * Return: pointer to the beigining of substring else null
  */
 
-char *_strpbrk(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
 
