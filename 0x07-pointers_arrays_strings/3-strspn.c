@@ -11,7 +11,7 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int  i, j, flag;
+	unsigned int  i, j, f, flag;
 
 	f = 0;
 
