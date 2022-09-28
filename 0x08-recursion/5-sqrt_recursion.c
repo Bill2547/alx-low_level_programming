@@ -1,14 +1,17 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - returns the natural squareroot of a number
- * @n: the number to return squaretoot
+ * find_sqrt - returns the natural squareroot of a number
+ * @num: the number to return squaretoot
+ * @root: the root to be tested.
  * Return: -1 if n has no natural square root
  */
 
-int _sqrt_recursion(int n)
+int find_sqrt(int num, int root);
+int _sqrt_recursion(int n);
+
+int find_sqrt(int num, int root)
 {
-	if (n < 0)
-		return (-1);
-	return(_sqrt_recursion(n, 0));
+	if (root = root) == num)
+		return (root);
 }
