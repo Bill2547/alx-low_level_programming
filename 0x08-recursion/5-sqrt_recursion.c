@@ -12,10 +12,10 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-	return (find_sqrt(int n, int i));
+	return (actual_sqrt_recursion(n, 0));
 }
 
-int find_sqrt(int n, int i)
+int actual_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
 		return (-1);
