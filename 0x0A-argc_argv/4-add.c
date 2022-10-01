@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdilb.h>
+#include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
 
@@ -34,25 +34,25 @@ int check_num(char *str)
  *Return: always 0
  */
 
-int main(int argc, char argv[])
+int main(int argc, char *argv[])
 {
 	int count;
 
-	int str_to int;
+	int str_to_int;
 
-	int sum - 0;
+	int sum = 0;
 
-	count = 1
+	count = 1;
 	while (count < argc)
 	{
-		if (chec_num(argv[count])
+		if (check_num(argv[count]))
 		{
 			str_to_int = atoi(argv[count]);
 			sum += str_to_int;
 		}
 		else
 		{
-		print("Error\"n")
+		printf("Error\"n");
 		return (1);
 		}
 		count++;
