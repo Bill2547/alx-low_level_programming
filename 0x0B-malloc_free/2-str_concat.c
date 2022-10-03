@@ -6,7 +6,7 @@
  * @s1: the string to be combined
  * @s2: the string to be combinde to s1
  *
- * Return: pointer to new memory s1 then s2 
+ * Return: pointer to new memory s1 then s2
  */
 
 char *str_concat(char *s1, char *s2)
