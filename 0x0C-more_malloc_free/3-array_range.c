@@ -8,7 +8,7 @@
  * Return: if max<min return o else pinter
  */
 
-int array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int *array, i, s;
 
