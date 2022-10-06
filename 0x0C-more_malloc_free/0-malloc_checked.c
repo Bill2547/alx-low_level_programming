@@ -5,7 +5,9 @@
  * malloc_checked - allocates memmory using malloc
  * @b: the number of bytes to be allocated
  *
- * Return:pointer
+ * Return:pointeear
+ * :wq
+ *
  */
 
 void *malloc_checked(unsigned int b)
