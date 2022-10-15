@@ -6,7 +6,7 @@
 /**
  * struct printer- sruct type
  * @symbol: symbol rep data type
- * print: function that prints 
+ * @print: function that prints
  */
 
 typedef struct printer
