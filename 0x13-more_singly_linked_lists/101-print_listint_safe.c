@@ -15,7 +15,7 @@ size_t looped_listint_len(const listint_t *head)
 
 	size_t nodes = 1;
 
-	if ( head == 0 || head->next == 0)
+	if (head == 0 || head->next == 0)
 		return (0);
 
 	a = head->next;
